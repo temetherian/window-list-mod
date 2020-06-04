@@ -38,11 +38,11 @@
 +
 +    _urgentChanged() {
 +        if(this._metaWindow.urgent)
-+            this.actor.get_parent().get_parent().set_style('color: white;\
++            this.actor.get_parent().set_style('color: white;\
 +  background-color: rgba(206, 92, 0, 1.0);\
 +  border: 1px solid #101010;');
 +        else
-+            this.actor.get_parent().get_parent().set_style('');
++            this.actor.get_parent().set_style('');
 +    }
 +
 +    _demandAttentionChanged() {
